@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-image: url('img/Fon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 1000px;
+  }
+
+  .forma {
+    width: 550px;
+    height: 900px;
+    background-color: rgb(255, 239, 184);
+    box-shadow: 10px 10px 11.8px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: 900px;
+    margin-top: 100px;
+  }
+
+  .forma > h1 {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+
+  .mini {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vvod {
+    background-color: rgb(255, 239, 184);
+    border: none;
+    height: 1000000000000px;
+  }
+
+  .x {
+    border: 2px solid rgb(247, 176, 110);
+  }
+
+  .mini1 {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .y {
+    margin-top: -20px;
+    margin-left: 370px;
+  }
+
+  .button {
+    width: 400px;
+    height: 69px;
+    background-color: rgb(248, 184, 120);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .forma > a > h4 {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .s {
+    display: flex;
+  }
+
+  .s > a{
+    text-decoration: none;
+  }
+
+  .s > a > h4 {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    font-weight: bolder;
+  }
+
+  .img1 {
+    display: flex;
+    gap: 40px;
+  }
